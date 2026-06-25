@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+#CONTEINER{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+#LOGO{
+    display: block;/*convertendo a div em blocos para alinhamentos*/
+    float: left;/*flutuando para esquerda dentro CONTEINER*/
+    width: 10%;
+    height: 62px;
+    background-color: #492e09;
+}
+
+#MENU{
+    display: block;
+    float: right;
+    width:90%;
+    height:55px;
+    margin-bottom:10px ;
+    background-color: #492e09;
+}
+
+.botao{
+    background-color: #221201;
+    color: #ffffff;
+    border-radius: 10px;
+    
+}   
+#BANNERLATERAL{
+    display: block;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: auto;
+}
+
+
+#TEXTO{
+    display: block;
+    float: right;
+    background-color: rgb(250, 250, 250);
+    width: 60%;
+    height: 500px;
+    text-align: justify;
+    font-family: Century Gothic,Verdana, Geneva, Tahoma, sans-serif;
+}
+.tamanhoLogo{
+    width: 50%;
+    height: 50px;
+}
+.tamanhoBannerLateral{
+    width: 60%; /*100% da caixa que ele está (BANNERLATERAL)*/
+    height: 500px;
+}
+
+#RODAPE{
+    clear:both;/*para limpar e ficar abaixo de todas as divs*/
+    text-align: center;
+    font-family: Century Gothic, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #492e09;
+    width: 100%;
+    height: 50px;
+    padding-top: 1%; /*espaço entre o texto e o topo*/
+    color: #ffffff;
+    
+}
+/*FORMATANDO O MENU*/
+nav{
+    max-width: 100%;
+    height: 62px;
+    background-color:#492e09;
+    font-family:Century Gothic, Verdana, Geneva, Tahoma, sans-serif; 
+   
+}nav ul{
+    list-style: none;/*Retirando o estilo em lista*/
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+
+nav ul li{
+    display:inline-block;  /*blocos na mesma linha*/
+    margin-right:10px; /*distancia entre os botoes*/
+}
+nav ul li a{
+    padding: 20px;/*espaço entre o texto e a borda*/
+    text-decoration: none;
+     /*retirar a linha abaixo dos links normais*/
+    color:#ffffff;
+    display: block;
+    text-align: center;
+    background-color: #492e09;
+    border-radius: 10px;
+    /*cor do botao sem clicar. */
+}
+nav ul li a:hover {
+    background-color: #aa7d42;
+
+
+}
+
+#PRODUTOS{
+margin-top: 10px;    
+display: block; /*LAYOUT EM BLOCOS*/
+background-color: #ffffff;
+width: 100%;
+height: auto;
+text-align: justify;
+font-family: Century Gothic,Verdana, Geneva, Tahoma, sans-serif;
+padding: 2%;
+
+}
+
+table{
+
+margin: auto; /*centralizando tabela na div*/
+border-style: groove ;
+border-color: #ffffff;
+border-radius: 30px;
+text-align: center;/*texto no centro*/
+color: #492e09;/*cor da fonte*/
+padding: 10px;/*espaçamento entre o objeto e a borda da tabela*/
+
+}
+
+/*CSS CONTATO*/
+
+#CONTATO{
+    display: block;
+    float: left;
+    margin-top: 10px;
+    background-color: #ffffff;
+    width: 30%;
+    text-align: center;
+}
+
+.tamanhoContato{
+   width: 150px;
+
+}
+
+
+
