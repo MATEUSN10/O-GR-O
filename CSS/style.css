@@ -6,11 +6,14 @@
     background-color: rgb(255, 255, 255);
 }
 #LOGO{
-    display: block;/*convertendo a div em blocos para alinhamentos*/
-    float: left;/*flutuando para esquerda dentro CONTEINER*/
+    float: left;
     width: 10%;
     height: 62px;
     background-color: #492e09;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #MENU{
@@ -47,8 +50,10 @@
     font-family: Century Gothic,Verdana, Geneva, Tahoma, sans-serif;
 }
 .tamanhoLogo{
-    width: 50%;
-    height: 50px;
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 6px auto;
 }
 .tamanhoBannerLateral{
     width: 60%; /*100% da caixa que ele está (BANNERLATERAL)*/
@@ -138,6 +143,12 @@ padding: 10px;/*espaçamento entre o objeto e a borda da tabela*/
 
 .tamanhoContato{
    width: 150px;
+
+}
+
+
+
+
 
 }
 
